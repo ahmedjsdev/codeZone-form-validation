@@ -1,0 +1,18 @@
+{
+  "name": "codezone-form-validation-package",
+  "version": "1.0.1",
+  "description": "this is simple form validation package",
+  "main": "codeZoneFormValidation.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mr-weber/codeZone-form-validation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mr-weber/codeZone-form-validation/issues"
+  },
+  "homepage": "https://github.com/mr-weber/codeZone-form-validation#readme"
+}
