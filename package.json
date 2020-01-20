@@ -8,7 +8,13 @@
     "type": "git",
     "url": "git+https://github.com/mr-weber/codeZone-form-validation.git"
   },
-  "keywords": [],
+  "keywords": [
+    "javascript",
+    "npm",
+    "es6",
+    "form",
+    "validation"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
