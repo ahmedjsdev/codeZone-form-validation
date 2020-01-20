@@ -1,7 +1,7 @@
 # codezone form validation package
 
 this is simple form validation package -- NOT FOR PRODUCTION USE -- it's a youtube session 
-[https://www.youtube.com/watch?v=eHGn2vebhdE]
+[https://www.youtube.com/watch?v=eHGn2vebhdE](https://www.youtube.com/watch?v=eHGn2vebhdE)
 
 ## Installation
 
@@ -29,7 +29,8 @@ index.html
 
 app.js
 
-```js
+```javascript
+import { codeZoneFormValidation } from 'codezone-form-validation-package'
 
 document.querySelector("#submitForm").addEventListener("click", (e) => {
   e.preventDefault();
@@ -51,4 +52,23 @@ document.querySelector("#submitForm").addEventListener("click", (e) => {
   ]);
 });
 
+```
+
+## PARAMETERS
+
+```javascript
+
+codeZoneFormValidation([
+  {
+      name: "Input name that assigned to name property eg: username",
+      rules: [
+        { name: "required", value: true, errMsg: "this input is required" },
+        { name: "maxLength", value: 10, errMsg: "maxlength error" },
+        { name: "minLength", value: 3, errMsg: "minlength error" },
+      ] // array of validation rules
+    },
+]);
+
+// validation rule object 
+{name: 'required | maxLength | minLength', value: "", errMsg: 'provided error msg'}
 ```
