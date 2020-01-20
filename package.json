@@ -1,6 +1,6 @@
 {
   "name": "codezone-form-validation-package",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "this is simple form validation package",
   "main": "codeZoneFormValidation.js",
   "scripts": {},
