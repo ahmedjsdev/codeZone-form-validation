@@ -65,6 +65,8 @@ codeZoneFormValidation([
         { name: "required", value: true, errMsg: "this input is required" },
         { name: "maxLength", value: 10, errMsg: "maxlength error" },
         { name: "minLength", value: 3, errMsg: "minlength error" },
+        { name: "pattern", value: /\$.js/, errMsg: "Pattern error" },
+
       ] // array of validation rules
     },
 ]);
