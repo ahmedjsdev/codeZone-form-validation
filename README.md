@@ -1,6 +1,7 @@
 # codezone form validation package
 
-this is simple form validation package 
+this is simple form validation package -- NOT FOR PRODUCTION USE -- it's a youtube session 
+[https://www.youtube.com/watch?v=eHGn2vebhdE]
 
 ## Installation
 
