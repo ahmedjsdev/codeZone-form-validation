@@ -70,5 +70,5 @@ codeZoneFormValidation([
 ]);
 
 // validation rule object 
-{name: 'required | maxLength | minLength', value: "", errMsg: 'provided error msg'}
+{name: 'required | maxLength | minLength | pattern', value: "", errMsg: 'provided error msg'}
 ```
